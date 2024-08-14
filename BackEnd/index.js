@@ -6,11 +6,19 @@ const cors = require('cors');
 app.use(cors());
 
 
+const generateResult = require('./openAI/generateResult');
+
+
+
+
+
 
 
 app.get('/', (req, res) => {
     res.send('Hello World!');
   });
+
+  app.post('/generateResult', generateResult)
 
 
 

@@ -18,7 +18,7 @@ export function SignIn() {
                 <button className="w-full bg-emerald-500 rounded-full text-white p-2 text-xl font-poppins font-semibold hover:bg-emerald-600">Sign In</button>
             </div>
 
-            <a href="/" className="font-poppins font-bold text-2xl absolute top-0">Logo</a>
+            <a href="/" className="font-poppins font-bold text-2xl absolute top-2">Logo</a>
 
         </div>
     )
